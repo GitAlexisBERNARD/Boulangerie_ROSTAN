@@ -11,17 +11,19 @@ import { RouterLink } from 'vue-router'
                     </a>
                 </div>
                 <div>
+                    <nav>
                     <ul>
                         <li>
-                            <RouterLink to="/">Home</RouterLink>
+                            <RouterLink to="/apropos">À propos</RouterLink>
                         </li>
                         <li>
-                            <RouterLink to="/web3">Web3</RouterLink>
+                            <RouterLink to="/horaires">Horaires</RouterLink>
                         </li>
                         <li>
-                            <RouterLink to="/web5">Web5</RouterLink>
+                            <RouterLink to="/produits">Produits</RouterLink>
                         </li>
                     </ul>
+                </nav>
             </div>
         </div>
     </div>
